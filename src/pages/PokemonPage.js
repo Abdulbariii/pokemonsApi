@@ -13,7 +13,7 @@ export default function PokemonPage() {
   useEffect(() => {
     // https://pokeapi.co/api/v2/pokemon/1
     axios
-      .get(`https://pokeapi.co/api/v2/pokemon/${id}`)
+      .get(`https://pokeapi.co/api/v2/pokemon/`)
       .then((result) => {
         console.log(result.data);
         setPokemon(result.data);
