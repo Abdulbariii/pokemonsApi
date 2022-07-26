@@ -4,6 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-router-dom';
 const navigation = [
+  { name: 'Home', href: '/', current: false },
   { name: 'Profile', href: '/profile', current: false },
   { name: 'Signup', href: '/signup', current: false },
   { name: 'Poekmons', href: '/pokemons', current: false },
